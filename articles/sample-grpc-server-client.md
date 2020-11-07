@@ -97,20 +97,23 @@ message Article {
 .
 └── grpcapi-go-server/
     ├── cmd/
-    │   └── api/
-    │       ├── server/
-    │       │   └── main.go (server起動)
-    │       └── adapter/
-    │           └── grpc/
-    │               └── article/
-    │                   └── handler.go (grpcのリクエストハンドラー)
+    │   └── api/
+    │       └── server/
+    │           └── main.go (server起動)
     ├── pkg/
-    │   ├── data (mapをdbの代わりにしてます)
-    │   └── grpcs/
-    │       └── article (protocで生成されたボイラープレートコード)/
-    │           ├── article.pb.go
-    │           └── article_grpc.pb.go
-    └── proto (@grpcapi-proto)
+    │   ├── adapter/
+    │   │   └── grpc/
+    │   │       └── article/
+    │   │           └── handler.go (grpcのリクエストハンドラー)
+    │   ├── data/ (mapをdbの代わりにしてます)
+    │   │   └── article.go
+    │   ├── grpcs/ (protocで生成されたボイラープレートコード)
+    │   │   └── article/
+    │   │       ├── article.pb.go
+    │   │       └── article_grpc.pb.go
+    │   └── server/
+    │       └── grpc.go
+    └── proto/ (@grpcapi-proto)
 ```
 
 ### ボイラープレートコードの生成
