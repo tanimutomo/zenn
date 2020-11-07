@@ -3,7 +3,7 @@ title: "Rails(client)とGo(server)間でgRPC通信"
 emoji: "🚆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["gRPC", "Go", "Ruby", "Rails"]
-published: false
+published: true
 ---
 
 # Rails(client) <- gRPC -> Go(server) のサンプル
