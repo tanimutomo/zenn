@@ -25,6 +25,10 @@ Rails6 にも対応しています．
 
 # 使ってみる
 
+以下，サンプルの置き場所です．
+
+https://github.com/tanimutomo/standalone-migrations-sample
+
 ## 設定
 
 基本的に レポジトリの README.md をみていただければ，そのままなので，ここは簡単にセットアップできるよ，ということを知ってもらうために，雑に流れだけ描きます．
