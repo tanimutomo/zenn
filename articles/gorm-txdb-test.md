@@ -4,6 +4,7 @@ emoji: "🐡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Go", "test", "Gorm", "並列"]
 published: true
+publication_name: "ispec_inc"
 ---
 
 # Gormのテストで，シード挿入と並列実行をいい感じにやりたい
