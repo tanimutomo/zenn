@@ -4,7 +4,6 @@ emoji: "🚆"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["gRPC", "Go", "Ruby", "Rails"]
 published: true
-publication_name: "ispec_inc"
 ---
 
 # Rails(client) <- gRPC -> Go(server) のサンプル

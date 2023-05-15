@@ -4,7 +4,6 @@ emoji: "🛠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Ruby", "migration", "database", "SQL"]
 published: true
-publication_name: "ispec_inc"
 ---
 
 
